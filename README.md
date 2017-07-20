@@ -1,7 +1,6 @@
 # flu-sampler project
 
-The program consists of two parts that will be merged in the future.
-The first part is used for estimating epidemiological parameters. 
+This program can be used for estimating epidemiological parameters.
 This is achieved with Gibbs sampling.
 
 ## compiling the code
