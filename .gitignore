@@ -1,29 +1,41 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# ignore all files in the flu-sampler/obj folder, and the executable
+obj/
+flu-sampler
 
-# Precompiled Headers
-*.gch
-*.pch
+# ignore all temp files
+*~
+*.backup
+*.bak
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# ignore hidden files, but include this file
+.*
+!.gitignore
 
-# Fortran module files
-*.mod
-*.smod
+# ignore documents, figures, pdfs, (zipped) xml files, sas databases
+*.png
+*.pdf
+*.docx
+*.doc
+*.ods
+*.xml
+*.xml.gz
+*.sas7bdat
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
-# Executables
-*.exe
+# ignore latex auxilliary files
+*.aux
+*.bbl
+*.blg
+*.log
 *.out
-*.app
+
+# compiled code, dependencies
+*.pyc
+*.o
+*.d
+
+# ignote jupyter notebooks (but not ipynb.cln)
+*.ipynb
+
+# generated data
+data/*.tsv
