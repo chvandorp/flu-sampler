@@ -39,11 +39,6 @@ Data needed for MCMC:
 - `sortedIliData.txt` -- simplified and combined the ILI data
 - `seasons-daynumbers.txt` -- seasons defined by an interval of day numbers (from 01/01/1970 onwards)
 
-Data needed for infection histories
-
-- epitope-virus-testmatrix.dat -- which epitopes are present in the viruses (TODO: this is just a test matrix)
-- epitope-hla-testmatrix.dat -- which epitopes are presented by the HLAs (TODO: this is just a test matrix)
-
 If all goes well, the following files will be created in the data/ folder 
 after running the program:
 
