@@ -5,18 +5,16 @@ This is achieved with Gibbs sampling.
 
 ## compiling the code
 
-Simply 'cd' to the 'flu-sampler' folder, and run 'make':
-```
-#!bash
-$ cd flu-sampler-project/flu-sampler/
+Simply `cd` to the `flu-sampler` folder, and run `make`:
+```bash
+$ cd flu-sampler/
 $ make
 ```
 
 ## running the program
 
 From the 'flu-sampler' folder, run
-```
-#!bash
+```bash
 $ ./flu-sampler [-s <seed>] [-v <vid>] [-m <mode>] [-l <length>] [-t <thinning>] [-i <imitations>]
 ```
 
@@ -54,8 +52,7 @@ where <vid> is an identifier given by the uses (defaults to "test"
 Jupyter notebooks with the extension `.ipython.cln` are included in the repository.
 These are *clean* versions of the notebooks (i.e. without output).
 In order to make the actual notebooks, run from the folder `flu-sampler-project/flu-sampler/`
-```
-#!bash
+```bash
 make -f nbs.makefile
 ```
 The following notebook can be used for analysing the chain, plotting data,
@@ -67,8 +64,7 @@ producing easy-to-parse data files:
 - TODO
 
 Before you want to commit modified notebooks to the repository, run
-```
-#!bash
+```bash
 make -f cln.makefile
 ```
 This will write cleared copies of the notebooks `x.ipynb` to the files `x.ipynb.cln`
