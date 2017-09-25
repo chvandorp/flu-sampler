@@ -20,6 +20,8 @@ flu-sampler
 *.xml
 *.xml.gz
 *.sas7bdat
+# but do not ignore these special files
+!data/ILI/codebook.pdf
 
 
 # ignore latex auxilliary files

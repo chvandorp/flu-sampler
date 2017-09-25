@@ -13,14 +13,14 @@ $ make
 
 ## running the program
 
-From the 'flu-sampler' folder, run
+From the `flu-sampler` folder, run
 ```bash
 $ ./flu-sampler [-s <seed>] [-v <vid>] [-m <mode>] [-l <length>] [-t <thinning>] [-i <imitations>]
 ```
 
 where <seed> is a seed (non-negative integer) for the random number generator;
 <vid> is an identifier for the output files;
-<mode> can be "mcmc" for MCMC, "wbic" for WBIC, "help" for help;
+<mode> can be `mcmc` for MCMC, `wbic` for WBIC, `help` for help;
 <length> is the length of the chain (pre-thinning)
 <thinning> is the number of states skipped between stored states
 <imitations> is the number of simulated timeseries
@@ -40,10 +40,10 @@ Data needed for MCMC:
 If all goes well, the following files will be created in the data/ folder 
 after running the program:
 
-- full-ili-chain-<vid>.xml -- the thinned chain (posterior)
-- sili-<vid>.xml -- simulated data, parameters sampled from the posterior
+- full-ili-chain-<id>.xml -- the thinned chain (posterior)
+- sili-<id>.xml -- simulated data, parameters sampled from the posterior
 
-where <vid> is an identifier given by the uses (defaults to "test"
+where <id> is an identifier given by the uses (defaults to "test"
 
 **TODO: new IO files added** 
 
